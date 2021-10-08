@@ -55,7 +55,7 @@ run the follwing command to install the dependencies:
 bash requirement.sh
 
 
-# Cite:
+# Cite our work:
 
 @inproceedings {274646,
 
