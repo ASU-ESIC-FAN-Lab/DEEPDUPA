@@ -3,7 +3,19 @@
 Adnan Siraj Rakin*, Yukui Luo*, Xiaolin Xu and Deliang Fan, “Deep-Dup: An Adversarial Weight Duplication Attack Framework to Crush Deep Neural Network in Multi-Tenant FPGA,” In 30th USENIX Security Symposium, August 11-13, 2021 (*first two authors contribute equally)
 https://www.usenix.org/conference/usenixsecurity21/presentation/rakin
 
-
+## Cite our work:
+```bash
+@inproceedings {274646,
+author = {Adnan Siraj Rakin and Yukui Luo and Xiaolin Xu and Deliang Fan},
+title = {Deep-Dup: An Adversarial Weight Duplication Attack Framework to Crush Deep Neural Network in Multi-Tenant {FPGA}},
+booktitle = {30th {USENIX} Security Symposium ({USENIX} Security 21)},
+year = {2021},
+isbn = {978-1-939133-24-3},
+pages = {1919--1936},
+url = {https://www.usenix.org/conference/usenixsecurity21/presentation/rakin},
+publisher = {{USENIX} Association},
+month = aug,}
+```
 
 The wide deployment of Deep Neural Networks (DNN) in high-performance cloud computing platforms brought to light field-programmable gate arrays (FPGA) as a popular choice of accelerator to boost performance due to its hardware reprogramming flexibility. To improve the efficiency of hardware resource utilization, growing efforts have been invested in FPGA virtualization, enabling the co-existence of multiple independent tenants in a shared FPGA chip. Such multi-tenant FPGA setup for DNN acceleration potentially exposes DNN interference task under severe threat from malicious users. This work, to the best of our knowledge, is the first to explore DNN model vulnerabilities in multi-tenant FPGAs. We propose a novel adversarial attack framework: Deep-DupA, in which the adversarial tenant can inject faults to the DNN model of victim tenant in FPGA. Specifically, she can aggressively overload the shared power distribution system of FPGA with malicious power-plundering circuits, achieving adversarial weight duplication (AWD) hardware attack that duplicates certain DNN weight packages during data transmission between off-chip memory and on-chip buffer, with the objective to hijack DNN function of the victim tenant. 
 Further, to identify the most vulnerable DNN weight packages for a given malicious objective, we propose a generic vulnerable weight package searching algorithm, called Progressive Differential Evolution Search (P-DES), which is, for the first time, adaptive to both deep learning white-box and black-box attack models. 
