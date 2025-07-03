@@ -72,24 +72,4 @@ run the follwing command to install the dependencies:
 bash requirement.sh
 
 
-# Cite our work:
 
-@inproceedings {274646,
-
-author = {Adnan Siraj Rakin and Yukui Luo and Xiaolin Xu and Deliang Fan},
-
-title = {Deep-Dup: An Adversarial Weight Duplication Attack Framework to Crush Deep Neural Network in Multi-Tenant {FPGA}},
-
-booktitle = {30th {USENIX} Security Symposium ({USENIX} Security 21)},
-
-year = {2021},
-
-isbn = {978-1-939133-24-3},
-
-pages = {1919--1936},
-
-url = {https://www.usenix.org/conference/usenixsecurity21/presentation/rakin},
-
-publisher = {{USENIX} Association},
-
-month = aug,}
